@@ -1,0 +1,74 @@
+/* الخط الأساسي للموقع */
+body {
+    padding: 20px;
+    font-family: "Cairo", sans-serif;
+    background-color: #111; 
+    color: #fff;
+}
+
+
+.omarelezaly{
+    color: white;
+
+}
+
+/* sections */
+.section {
+    margin: 50px auto; 
+}
+
+/* عنوان اساسي */
+.title {
+    font-size: 38px; 
+    font-weight: 700;
+}
+
+/* صورة الصفحة */
+.main-img {
+    max-width: 330px; 
+    border-radius: 12px;
+    margin-top: 15px;
+}
+
+/* ------- Skills / Hobbies ------- */
+.hobbies-list {
+    width: 480px; 
+    margin: 0 auto;
+}
+
+/* عناصر اللستة */
+.list-group-item {
+    background: #e5e5e5; 
+    color: #000000;
+    font-weight: 600;
+}
+
+/* لو في override بسيط للستيل */
+.hobbies-list .list-group-item {
+    background-color: #f7f7f7;
+    color: #000000;
+}
+
+/* ------- Projects ------- */
+.project-box {
+    background: #fff;
+    color: #000;
+    padding: 18px;
+    border-radius: 8px;
+    text-align: center;
+    border: 1px solid #ddd; 
+}
+
+/* ------ Footer ------- */
+.footer {
+    margin-top: 40px;
+    padding: 18px;
+    background: #000;
+}
+
+/* زرار ال submit */
+.btn-main {
+    background-color: #0077ff;
+    padding: 8px 15px;
+    border-radius: 6px;
+}
