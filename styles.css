@@ -2,51 +2,48 @@
 body {
     padding: 20px;
     font-family: "Cairo", sans-serif;
-    background-color: #111; 
+    background-color: #111;
     color: #fff;
 }
 
-
-.omarelezaly{
+/* اسم الموقع */
+.omarelezaly {
     color: white;
-
+    font-size: 22px;
+    font-weight: 700;
 }
 
 /* sections */
 .section {
-    margin: 50px auto; 
+    margin: 50px auto;
 }
 
 /* عنوان اساسي */
 .title {
-    font-size: 38px; 
+    font-size: 38px;
     font-weight: 700;
 }
 
 /* صورة الصفحة */
 .main-img {
-    max-width: 330px; 
+    max-width: 330px;
+    width: 100%;
     border-radius: 12px;
     margin-top: 15px;
 }
 
 /* ------- Skills / Hobbies ------- */
 .hobbies-list {
-    width: 480px; 
+    max-width: 480px;
+    width: 100%;
     margin: 0 auto;
 }
 
 /* عناصر اللستة */
 .list-group-item {
-    background: #e5e5e5; 
+    background: #e5e5e5;
     color: #000000;
     font-weight: 600;
-}
-
-/* لو في override بسيط للستيل */
-.hobbies-list .list-group-item {
-    background-color: #f7f7f7;
-    color: #000000;
 }
 
 /* ------- Projects ------- */
@@ -56,19 +53,51 @@ body {
     padding: 18px;
     border-radius: 8px;
     text-align: center;
-    border: 1px solid #ddd; 
+    border: 1px solid #ddd;
+}
+
+/* ------ Contact ------- */
+#contact {
+    max-width: 520px;
 }
 
 /* ------ Footer ------- */
-.footer {
+footer {
     margin-top: 40px;
     padding: 18px;
     background: #000;
 }
 
-/* زرار ال submit */
-.btn-main {
-    background-color: #0077ff;
-    padding: 8px 15px;
-    border-radius: 6px;
+/* ===== NAVBAR ===== */
+.main-header {
+    background-color: #000;
+}
+
+.main-header .nav-link {
+    color: #ccc;
+    font-weight: 600;
+}
+
+.main-header .nav-link.active,
+.main-header .nav-link:hover {
+    color: #fff;
+}
+
+/* ===== Mobile Navbar ===== */
+@media (max-width: 768px) {
+
+    .nav {
+        flex-direction: column;
+        text-align: center;
+        gap: 10px;
+        margin-top: 15px;
+    }
+
+    .title {
+        font-size: 30px;
+    }
+
+    .main-img {
+        max-width: 260px;
+    }
 }
