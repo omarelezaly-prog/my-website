@@ -1,132 +1,128 @@
 <!DOCTYPE html>
-<html lang="en" data-bs-theme="dark">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Omar Elezaly</title>
 
-    <!-- CSS Files -->
-    <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet" href="bootstrap.css">
- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
 
+    <!-- CSS -->
+    <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
 
-    <!-- Navbar -->
-    <header class="main-header">
-        <div class="container d-flex flex-wrap justify-content-between align-items-center py-3">
-            <span class="omarelezaly">Omar Elezaly</span>
+<!-- ===== Navbar ===== -->
+<header class="main-header">
+    <div class="container d-flex flex-wrap justify-content-between align-items-center py-3">
+        <span class="omarelezaly">Omar Elezaly</span>
 
-
-            <ul class="nav nav-pills">
-                <li class="nav-item"><a href="#home" class="nav-link active">Home</a></li>
-                <li class="nav-item"><a href="#info" class="nav-link">Info</a></li>
-                <li class="nav-item"><a href="#hobies" class="nav-link">Skills</a></li>
-                <li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
-                <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
-            </ul>
-        </div>
-    </header>
- <hr>
-    <!-- Home -->
-    <section id="home" class="section text-center">
-        <h1 class="title">ملف تعريفي عني</h1>
-        <p class="lead info-text">
-            انا عمر، طالب في الدلتا الدولية للغات... بحب البرمجة وبحاول أطوّر نفسي كل يوم.
- 
-        <img src="./WhatsApp Image 2025-12-05 at 15.37.04_900522a5.jpg" class="main-img">
-    </section>
-
-    <hr>
-
-    <!-- Info -->
-    <section id="info" class="section text-center">
-        <h2>Info</h2>
-        <p class="lead">اسمي عمر.. بحب الكمبيوتر جداً وعايز أكون مبرمج محترف ان شاء الله.</p>
-    </section>
-
-    <hr>
-
-    <!-- Skills -->
-    <section id="hobbies" class="section">
-        <h2 class="text-center mb-4">learned coding languages</h2>
-
-        <ul class="list-group hobbies-list">
-            <li class="list-group-item">HTML</li>
-            <li class="list-group-item">CSS</li>
-            <li class="list-group-item">Python</li>
+        <ul class="nav nav-pills">
+            <li class="nav-item"><a href="#home" class="nav-link active">Home</a></li>
+            <li class="nav-item"><a href="#info" class="nav-link">Info</a></li>
+            <li class="nav-item"><a href="#hobbies" class="nav-link">Skills</a></li>
+            <li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
+            <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
         </ul>
-    </section>
+    </div>
+</header>
 
-    <hr>
+<hr>
 
-    <!-- Projects -->
-    <section id="projects" class="section">
-        <h2 class="text-center mb-4">Projects</h2>
+<!-- Home -->
+<section id="home" class="section text-center">
+    <h1 class="title">ملف تعريفي عني</h1>
+    <p class="lead">
+        انا عمر، طالب في الدلتا الدولية للغات... بحب البرمجة وبحاول أطوّر نفسي كل يوم.
+    </p>
+    <img src="WhatsApp Image 2025-12-05 at 15.37.04_900522a5.jpg" class="main-img">
+</section>
 
-        <div class="row g-4">
-            <div class="col-md-4">
-                <div class="project-box">
-                    <h4>HTML + CSS</h4>
-                    <p>عملت ملف تعريفي</p>
-                </div>
-            </div>
+<hr>
 
-            <div class="col-md-4">
-                <div class="project-box">
-                    <h4>Python</h4>
-                    <p>برنامج لتتبع المصاريف</p>
-                </div>
-            </div>
+<!-- Info -->
+<section id="info" class="section text-center">
+    <h2>Info</h2>
+    <p class="lead">اسمي عمر.. بحب الكمبيوتر جداً وعايز أكون مبرمج محترف ان شاء الله.</p>
+</section>
 
-            <div class="col-md-4">
-                <div class="project-box">
-                    <h4>HTML</h4>
-                    <p>مواقع صغيرة للتدريب</p>
-                </div>
+<hr>
+
+<!-- Skills -->
+<section id="hobbies" class="section">
+    <h2 class="text-center mb-4">learned coding languages</h2>
+
+    <ul class="list-group hobbies-list">
+        <li class="list-group-item">HTML</li>
+        <li class="list-group-item">CSS</li>
+        <li class="list-group-item">Python</li>
+    </ul>
+</section>
+
+<hr>
+
+<!-- Projects -->
+<section id="projects" class="section container">
+    <h2 class="text-center mb-4">Projects</h2>
+
+    <div class="row g-4">
+        <div class="col-md-4">
+            <div class="project-box">
+                <h4>HTML + CSS</h4>
+                <p>عملت ملف تعريفي</p>
             </div>
         </div>
-    </section>
 
-    <hr>
-
-    <!-- Contact -->
-    <section id="contact" class="section text-center w-50 mx-auto">
-        <h1>Contact Me</h1>
-        <form>
-            <div class="form-floating mb-3">
-                <input type="email" class="form-control">
-                <label>Email address</label>
+        <div class="col-md-4">
+            <div class="project-box">
+                <h4>Python</h4>
+                <p>برنامج لتتبع المصاريف</p>
             </div>
+        </div>
 
-            <div class="form-floating mb-3">
-                <input type="text" class="form-control">
-                <label>Phone Number</label>
+        <div class="col-md-4">
+            <div class="project-box">
+                <h4>HTML</h4>
+                <p>مواقع صغيرة للتدريب</p>
             </div>
+        </div>
+    </div>
+</section>
 
-            <button class="btn btn-primary w-100">Submit</button>
-        </form>
-    </section>
+<hr>
+
+<!-- Contact -->
+<section id="contact" class="section text-center mx-auto">
+    <h2>Contact Me</h2>
+
+    <form class="mt-4">
+        <div class="form-floating mb-3">
+            <input type="email" class="form-control" placeholder="Email">
+            <label>Email address</label>
+        </div>
+
+        <div class="form-floating mb-3">
+            <input type="text" class="form-control" placeholder="Phone">
+            <label>Phone Number</label>
+        </div>
+
+        <button class="btn btn-primary w-100">Submit</button>
+    </form>
+</section>
 
 <!-- Footer -->
-<footer class="bg-dark text-white py-4">
-  <div class="container text-center">
-
-
-    <!-- ازرار السوشيال -->
-    <div class="d-flex justify-content-center gap-3 mb-3">
-      <a href="https://www.facebook.com/share/1JfeQRM6ta/" class="btn social-fb">Facebook</a>
-      <a href="https://wa.me/201066238546" class="btn social-wa">WhatsApp</a>
-      <a href="https://www.instagram.com/omarelezaly" class="btn social-ig">Instagram</a>
+<footer class="text-center text-white">
+    <div class="container">
+        <div class="d-flex justify-content-center gap-3 mb-3">
+            <a href="#" class="btn btn-outline-light">Facebook</a>
+            <a href="#" class="btn btn-outline-light">WhatsApp</a>
+            <a href="#" class="btn btn-outline-light">Instagram</a>
+        </div>
+        <p class="small mb-0">&copy; 2025 All rights reserved</p>
     </div>
-
-    <!-- حقوق النشر -->
-    <p class="small mb-0">&copy; 2025 . All rights reserved.</p>
-  </div>
 </footer>
-
 
 </body>
 </html>
